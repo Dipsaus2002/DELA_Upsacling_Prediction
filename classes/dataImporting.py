@@ -1,9 +1,7 @@
 import json
 import requests
-import os
 import pandas as pd
 from io import StringIO
-import logging
 
 # define what a dataset contains
 class dataset: 
