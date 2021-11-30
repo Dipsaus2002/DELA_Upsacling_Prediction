@@ -46,7 +46,8 @@ class datasetManager:
         with open(f"./classes/mapping/{feature}.mapping.json", 'r') as data_file:
             data = json.load(data_file)
         
-        return dataset[feature].replace({data})
+        dataset[feature] = dataset[feature].replace(data)
+        return dataset
         
 
 
