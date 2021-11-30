@@ -28,7 +28,7 @@ class datasetManager:
         # load files into categories
         for dataset in datasets:
             data = requests.get(dataset.url).text
-            dataframe = pd.read_csv(StringIO(data), error_bad_lines=False, sep=dataset.sep, low_memory=False)
+            dataframe = pd.read_csv(StringIO(data), error_bad_lines=False, sep=dataset.sep, low_memory=False, skiprows=dataset.skip)
             dataframes[dataset.tag][dataset.name] = dataframe
         return dataframes
 
