@@ -1,44 +1,44 @@
 [
     {
-        "tag": "density",
-        "name": "densityNow",
+        "tag": "lifeExpectency",
+        "name": "lifeExpectencyPerRegion",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Dela%20Data/Density%20of%20population/klikfilebev_2020.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/population%20change%20and%20life%20expectney%20per%20reagion%20and%20death%20reasons%20per%20year/life_expectency_per_region.csv"
     },
     {
-        "tag": "density",
-        "name": "densityPast",
+        "tag": "populationChange",
+        "name": "pop2002_2020",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Dela%20Data/Density%20of%20population/klikfilebevontwikkeling_2015_2020_0.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/population%20change%20and%20life%20expectney%20per%20reagion%20and%20death%20reasons%20per%20year/population_change_per_region2002_2020.csv"
     },
     {
-        "tag": "density",
-        "name": "densityFuture",
+        "tag": "populationChange",
+        "name": "popOverview",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Dela%20Data/Density%20of%20population/klikfilebevprognose_2020_2050_0.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/population%20change%20and%20life%20expectney%20per%20reagion%20and%20death%20reasons%20per%20year/population_change_per_year_netherland_overview2002-2020.csv"
     },
     {
-        "tag": "birthrates",
-        "name": "birthrates2",
+        "tag": "populationChange",
+        "name": "popComparison2015_2020",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Dela%20Data/Birth%20rates/Aantal%20levend%20geboren%20kinderen%20(x%201%20000).csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Density%20of%20population%20record%20and%20prediction/population_registration_Per_Rigion_klikfilebevontwikkeling_2015_2020_0.csv"
     },
     {
-        "tag": "birthrates",
-        "name": "birthKids",
+        "tag": "populationChange",
+        "name": "growthPrediction2020_2050",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Dela%20Data/Birth%20rates/Geboren%20kinderen%20per%20maand%20(x%201%20000)%20(4).csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Density%20of%20population%20record%20and%20prediction/populaion_Prediction_Per_Rigion_klikfilebevprognose_2020_2050_0.csv"
+    },
+    {
+        "tag": "populationChange",
+        "name": "absoluteNr",
+        "seperator": ",",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Density%20of%20population%20record%20and%20prediction/klikfilebev_2020.csv"
     },
     {
         "tag": "death",
-        "name": "deathPerWeek",
-        "seperator": ",",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Dela%20Data/Deaths%20by%20week/table_tabel-5fbadeee-9c27-456a-bbb2-9a7d166a0971.csv"
-    },
-    {
-        "tag": "deathWithReason",
-        "name": "typedDataSet",
+        "name": "reasons1997_2014",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Dela%20Data/Deaths%20with%20reason%202019%20-%202020/7233_TypedDataSet_30092021_112745.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/Reason_of_death_1997_2014.csv"
     }
 ]
