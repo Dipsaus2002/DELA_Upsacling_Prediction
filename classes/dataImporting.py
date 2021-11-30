@@ -32,5 +32,8 @@ class datasetManager:
             dataframes[dataset.tag][dataset.name] = dataframe
         return dataframes
 
+    def mergeDatasets():
+        pass
+
         
 
