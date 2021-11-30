@@ -3,72 +3,84 @@
         "tag": "lifeExpectency",
         "name": "lifeExpectencyPerRegion",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/population%20change%20and%20life%20expectney%20per%20reagion%20and%20death%20reasons%20per%20year/life_expectency_per_region.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/population%20change%20and%20life%20expectney%20per%20reagion%20and%20death%20reasons%20per%20year/life_expectency_per_region.csv",
+        "skip": 0
     },
     {
         "tag": "populationChange",
         "name": "pop2002_2020",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/population%20change%20and%20life%20expectney%20per%20reagion%20and%20death%20reasons%20per%20year/population_change_per_region2002_2020.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/population%20change%20and%20life%20expectney%20per%20reagion%20and%20death%20reasons%20per%20year/population_change_per_region2002_2020.csv",
+        "skip": 0
     },
     {
         "tag": "populationChange",
         "name": "popOverview",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/population%20change%20and%20life%20expectney%20per%20reagion%20and%20death%20reasons%20per%20year/population_change_per_year_netherland_overview2002-2020.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/population%20change%20and%20life%20expectney%20per%20reagion%20and%20death%20reasons%20per%20year/population_change_per_year_netherland_overview2002-2020.csv",
+        "skip": [0,1,2,19]
     },
     {
         "tag": "populationChange",
         "name": "popComparison2015_2020",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Density%20of%20population%20record%20and%20prediction/population_registration_Per_Rigion_klikfilebevontwikkeling_2015_2020_0.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Density%20of%20population%20record%20and%20prediction/population_registration_Per_Rigion_klikfilebevontwikkeling_2015_2020_0.csv",
+        "skip": 0
     },
     {
         "tag": "populationChange",
         "name": "growthPrediction2020_2050",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Density%20of%20population%20record%20and%20prediction/populaion_Prediction_Per_Rigion_klikfilebevprognose_2020_2050_0.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Density%20of%20population%20record%20and%20prediction/populaion_Prediction_Per_Rigion_klikfilebevprognose_2020_2050_0.csv",
+        "skip": 0
     },
     {
         "tag": "populationChange",
         "name": "absoluteNr",
-        "seperator": ",",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Density%20of%20population%20record%20and%20prediction/klikfilebev_2020.csv"
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Density%20of%20population%20record%20and%20prediction/klikfilebev_2020.csv",
+        "skip": 0
     },
     {
         "tag": "death",
         "name": "reasons1997_2014",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/Reason_of_death_1997_2014.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/Reason_of_death_1997_2014.csv",
+        "skip": 0
     },
     {
         "tag": "death",
         "name": "reasons2005_2012",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/Reason_of_death_2005_2012.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/Reason_of_death_2005_2012.csv",
+        "skip": 0
     },
     {
         "tag": "death",
         "name": "reasons2013_2020",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/Reason_of_death_2013_2020.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/Reason_of_death_2013_2020.csv",
+        "skip": 0
     },
     {
         "tag": "death",
         "name": "perWeek2020_2021",
         "seperator": ",",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/death_per_week_2020_2021_the_intire_netherlands.csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/death_per_week_2020_2021_the_intire_netherlands.csv",
+        "skip": 0
     },
     {
         "tag": "birth",
         "name": "birthPerYear1899_2018",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Birth%20rates%20per%20year%20and%20avarage%20per%20month/Aantal_levend_geboren_kinderen_per%20year_1899-2018(x1000).csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Birth%20rates%20per%20year%20and%20avarage%20per%20month/Aantal_levend_geboren_kinderen_per%20year_1899-2018(x1000).csv",
+        "skip": 0
     },
     {
         "tag": "birth",
         "name": "avaragesOfMonth",
         "seperator": ";",
-        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Birth%20rates%20per%20year%20and%20avarage%20per%20month/avarage_of_Geboren_kinderen_per_maand_for_the_eyars_1975-2020(x1000).csv"
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Birth%20rates%20per%20year%20and%20avarage%20per%20month/avarage_of_Geboren_kinderen_per_maand_for_the_eyars_1975-2020(x1000).csv",
+        "skip": 0
     }
 ]
