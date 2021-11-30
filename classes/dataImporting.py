@@ -5,11 +5,12 @@ from io import StringIO
 
 # define what a dataset contains
 class dataset: 
-    def __init__(self, tag, name, sep, url):
+    def __init__(self, tag, name, sep, url, skip):
         self.tag = tag
         self.url = url
         self.name = name
         self.sep = sep
+        self.skip = skip
 
 class datasetManager:
     def defineDatasets():
@@ -17,7 +18,13 @@ class datasetManager:
             data = json.load(data_file)
         datasets = []
         for datasetConf in data:
-            datasets.append(dataset(datasetConf['tag'], datasetConf['name'], datasetConf['seperator'], datasetConf['url']))
+            datasets.append(dataset(
+                datasetConf['tag'], 
+                datasetConf['name'], 
+                datasetConf['seperator'], 
+                datasetConf['url'], 
+                datasetConf['skip']
+            ))
         return datasets
     
     def loadDatasets(datasets):
@@ -34,6 +41,15 @@ class datasetManager:
 
     def mergeDatasets():
         pass
+
+    def mapFeature(dataset, feature):
+        with open(f"./classes/mapping/{feature}.mapping.json", 'r') as data_file:
+            data = json.load(data_file)
+        
+        dataset[feature] = dataset[feature].replace(data)
+        return dataset
+        
+
 
         
 
