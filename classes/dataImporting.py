@@ -42,12 +42,11 @@ class datasetManager:
     def mergeDatasets():
         pass
 
-    def mapFeature(dataset, feature):
+    def mapFeature(feature):
         with open(f"./classes/mapping/{feature}.mapping.json", 'r') as data_file:
             data = json.load(data_file)
         
-        dataset[feature] = dataset[feature].replace(data)
-        return dataset
+        return data
         
 
 
