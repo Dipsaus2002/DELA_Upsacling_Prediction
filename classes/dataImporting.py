@@ -39,14 +39,18 @@ class datasetManager:
             dataframes[dataset.tag][dataset.name] = dataframe
         return dataframes
 
-    def mergeDatasets():
-        pass
-
     def mapFeature(feature):
         with open(f"./classes/mapping/{feature}.mapping.json", 'r') as data_file:
             data = json.load(data_file)
         
         return data
+
+    def renameFeatures(datasetName):
+        with open(f"./classes/renaming/{datasetName}.renaming.json", 'r') as data_file:
+            data = json.load(data_file)
+
+        return data
+
         
 
 
