@@ -43,6 +43,20 @@
     },
     {
         "tag": "death",
+        "name": "reasons_per_year_per_region2002_2015",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/Reason_of_death_per_year_per_region2002_2015.csv",
+        "skip": 0
+    },
+    {
+        "tag": "death",
+        "name": "reasons_per_year_per_region2016_2020",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/Reason_of_death_per_year_per_region2016_2020.csv",
+        "skip": 0
+    },
+    {
+        "tag": "death",
         "name": "reasons1997_2014",
         "seperator": ";",
         "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Deaths%20with%20reason%201997%20-%202020/Reason_of_death_1997_2014.csv",
