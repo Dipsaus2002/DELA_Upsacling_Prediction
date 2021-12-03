@@ -1,4 +1,5 @@
 {
+    "Gemeente": "Municipality",
     "Bij geboorte": "LifeExpectancy", 
     "Bij geboorte (afwijking tov NL)": "LifeExpectancyNL",
     "Bij 65 jaar": "LifeExpectancyWhen65OrOlder",

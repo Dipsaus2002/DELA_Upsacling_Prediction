@@ -1,0 +1,16 @@
+{
+    "RegioS": "Municipality", 
+    "Perioden": "Year",
+    "BevolkingAanHetBeginVanDePeriode_1": "PopulationAtBeginOfPeriod",
+    "LevendGeborenKinderen_2": "AliveBornChildren", 
+    "Overledenen_3": "Deceased", 
+    "TotaleVestiging_4": "TotalLocations",
+    "VestigingVanuitEenAndereGemeente_5": "LocationsFromOtherMunicipality", 
+    "Immigratie_6": "Immigration", 
+    "VertrekNaarAndereGemeente_8": "AmountMovedToOtherMunicipality", 
+    "Bevolkingsgroei_11": "PopulationGrowth", 
+    "BevolkingsgroeiRelatief_12": "RelativePopulationGrowth",
+    "BevolkingsgroeiSinds1Januari_13": "PopulationGrowthSinceJanuari",
+    "BevolkingsgroeiSinds1JanuariRela_14": "RelativePopulationGrowthSinceJanuari",
+    "BevolkingAanHetEindeVanDePeriode_15": "PopulationAtEndOfPeriod"
+}
