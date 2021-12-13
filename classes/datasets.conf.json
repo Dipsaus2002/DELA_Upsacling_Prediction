@@ -18,7 +18,12 @@
         "name": "popOverview",
         "seperator": ";",
         "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/population%20change%20and%20life%20expectney%20per%20reagion%20and%20death%20reasons%20per%20year/population_change_per_year_netherland_overview2002-2020.csv",
-        "skip": [0,1,2,19]
+        "skip": [
+            0,
+            1,
+            2,
+            19
+        ]
     },
     {
         "tag": "populationChange",
@@ -32,6 +37,111 @@
         "name": "growthPrediction2020_2050",
         "seperator": ";",
         "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/Density%20of%20population%20record%20and%20prediction/populaion_Prediction_Per_Rigion_klikfilebevprognose_2020_2050_0.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth1",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/1.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth2",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/2.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth3",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/3.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth4",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/4.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth5",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/5.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth6",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/6.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth7",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/7.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth8",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/8.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth9",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/9.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth10",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/10.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth11",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/11.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth12",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/12.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth13",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/13.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth14",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/14.csv",
+        "skip": 0
+    },
+    {
+        "tag": "populationChange",
+        "name": "perMonth15",
+        "seperator": ";",
+        "url": "https://raw.githubusercontent.com/Dipsaus2002/DELA_Upsacling_Prediction/main/Data/popPerMonth/15.csv",
         "skip": 0
     },
     {
